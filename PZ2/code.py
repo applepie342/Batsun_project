@@ -18,7 +18,7 @@ while type(toffee_kg) != int:  # обработка исключений
         toffee_kg = int(toffee_kg)
     except ValueError:
         print("Неправильно ввели!")
-        toffee_kg= input("Введите количество килограмм ирисок: ")
+        toffee_kg = input("Введите количество килограмм ирисок: ")
 toffee_cost = input("Введите их стоимость: ")
 while type(toffee_cost) != int:  # обработка исключений
     try:
