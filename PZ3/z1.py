@@ -2,7 +2,7 @@
 # нечетным»
 
 a = input("Введите целое число: ")
-while type(a) != int:
+while type(a) != int:  # обработка исключений
     try:
         a = int(a)
     except ValueError:
