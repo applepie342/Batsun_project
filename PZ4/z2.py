@@ -18,4 +18,4 @@ while n >= 0:
     elif n == 0:
         print("False")
         n = -1
-    n = n // 10
+    n //= 10
