@@ -15,6 +15,7 @@ for i in range(len(s)):
             break
         else:
             stack.pop()
+
 if len(stack) == 0:
     print(0)
 else:

@@ -12,7 +12,6 @@ while len(A) < 10:
 A = list(A)
 print('A:', A)
 
-
 B = [element for element in A if A.index(element) in range(0, (len(A) // 2))]
 C = [element for element in A if A.index(element) in range(len(A) // 2, (len(A)) + 1)]
 print('B:', B)
