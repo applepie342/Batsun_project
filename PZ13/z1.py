@@ -1,4 +1,10 @@
 # В матрице найти минимальный и максимальные элементы.
+import random
 
-table = [x * y for x in range(3, 8) for y in range(3, 8)]
-print(table)
+rows = 3
+cols = 4
+
+matrix = [[random.randint(-15, 15) for _ in range(cols)] for _ in range(rows)]
+print(matrix)
+print('Максимальный элемент матрицы равен:', max(max(matrix)))
+print('Минимальный элемент матрицы равен:', min(min(matrix)))
