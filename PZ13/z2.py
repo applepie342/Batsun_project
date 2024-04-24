@@ -4,7 +4,7 @@ import random
 rows = 3
 cols = 4
 
-matrix = [[random.randint(-15, 15) for _ in range(cols)] for _ in range(rows)]
+matrix = [[random.randint(-15, 15) for x in range(cols)] for y in range(rows)]
 print(matrix)
 
 summa = 0
