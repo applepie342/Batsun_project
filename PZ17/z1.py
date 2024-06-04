@@ -62,5 +62,3 @@ style.configure('.', font=('Arial', 14))
 name_entry.focus()
 
 root.mainloop()
-
-root.mainloop()
