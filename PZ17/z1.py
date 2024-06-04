@@ -53,8 +53,6 @@ cat_checkbox.grid(column=3, row=2, sticky=tk.W)
 cat_checkbox = ttk.Checkbutton(fav_animals, text="Краб")
 cat_checkbox.grid(column=4, row=2, sticky=tk.W)
 
-# Добавьте остальные животные аналогичным образом
-
 submit_button = ttk.Button(mainframe, text="Отправить информацию")
 submit_button.grid(column=0, row=3)
 
