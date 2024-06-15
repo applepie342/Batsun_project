@@ -8,10 +8,10 @@ def check_number():
     input_value = entry.get()
     try:
         number = int(input_value)
-        if number % 2 == 0:
-            result_label["text"] = "Число {} четное".format(number)
+        if number % 2:
+            result_label["text"] = "Истина".format(number)
         else:
-            result_label["text"] = "Число {} нечетное".format(number)
+            result_label["text"] = "Ложь".format(number)
     except ValueError:
         result_label["text"] = "Неправильный формат числа"
 
